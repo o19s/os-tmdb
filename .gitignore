@@ -1,0 +1,9 @@
+tmdb_os.json
+*.swo
+venv/*
+venv
+__pycache__
+.DS*
+housekeeping/create_dataset/tmdb_os.json
+housekeeping/create_dataset/tmdb_os.json.zip
+.idea/
