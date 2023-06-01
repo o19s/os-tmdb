@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "d57e05ea-fde8-4c5b-9440-6956344a42ef",
-		"name": "es-TLRE",
+		"name": "os-TLRE",
 		"description": "OpenSearch API requests from TLRE.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -31,9 +31,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_analyze",
+					"raw": "{{os_host}}/tmdb/_analyze",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -68,9 +68,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_analyze",
+					"raw": "{{os_host}}/tmdb/_analyze",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -105,9 +105,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -142,9 +142,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_explain/1368",
+					"raw": "{{os_host}}/tmdb/_explain/1368",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -180,9 +180,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -217,9 +217,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_validate/query?explain=true",
+					"raw": "{{os_host}}/tmdb/_validate/query?explain=true",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -261,9 +261,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -298,9 +298,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -335,9 +335,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -372,9 +372,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -409,9 +409,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -446,9 +446,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -483,9 +483,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -520,9 +520,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -557,9 +557,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -594,9 +594,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -631,9 +631,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -668,9 +668,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -705,9 +705,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -742,9 +742,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -779,9 +779,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -816,9 +816,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -853,9 +853,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -890,9 +890,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search",
+					"raw": "{{os_host}}/tmdb/_search",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -927,9 +927,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_validate/query?explain=true",
+					"raw": "{{os_host}}/tmdb/_validate/query?explain=true",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -971,9 +971,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_validate/query?explain=true",
+					"raw": "{{os_host}}/tmdb/_validate/query?explain=true",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -1015,9 +1015,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_validate/query?explain=true",
+					"raw": "{{os_host}}/tmdb/_validate/query?explain=true",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -1059,9 +1059,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_validate/query?explain=true",
+					"raw": "{{os_host}}/tmdb/_validate/query?explain=true",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -1103,9 +1103,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search/?explain=true",
+					"raw": "{{os_host}}/tmdb/_search/?explain=true",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -1147,9 +1147,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search/?explain=true",
+					"raw": "{{os_host}}/tmdb/_search/?explain=true",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -1191,9 +1191,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/tmdb/_search/?explain=true",
+					"raw": "{{os_host}}/tmdb/_search/?explain=true",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"tmdb",
@@ -1225,9 +1225,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{es_host}}/_querqy/rewriter/common_rules",
+					"raw": "{{os_host}}/_querqy/rewriter/common_rules",
 					"host": [
-						"{{es_host}}"
+						"{{os_host}}"
 					],
 					"path": [
 						"_querqy",
