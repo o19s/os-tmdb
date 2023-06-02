@@ -1225,7 +1225,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{os_host}}/_querqy/rewriter/common_rules",
+					"raw": "{{os_host}}/_plugins/_querqy/rewriter/common_rules",
 					"host": [
 						"{{os_host}}"
 					],
