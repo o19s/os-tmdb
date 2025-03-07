@@ -1,11 +1,11 @@
 services:
 
-  opensearch-node:
+  os-tmdb-node:
     build: os-docker/.
-    container_name: opensearch-node
+    container_name: os-tmdb-node
     environment:
       - cluster.name=opensearch-cluster
-      - node.name=opensearch-node
+      - node.name=os-tmdb-node
       - discovery.type=single-node
       - "http.cors.enabled=true"
       - "http.cors.allow-origin=*"
@@ -31,13 +31,13 @@ services:
     networks:
       - opensearch-net
 
-  opensearch-dashboards:
-    image: opensearchproject/opensearch-dashboards:2.7.0
-    container_name: opensearch-dashboards
+  os-tmdb-dashboards:
+    image: opensearchproject/opensearch-dashboards:2.19.1
+    container_name: os-tmdb-dashboards
     ports:
       - "5601:5601"
     environment:
-      - 'OPENSEARCH_HOSTS=["http://opensearch-node:9200"]'
+      - 'OPENSEARCH_HOSTS=["http://os-tmdb-node:9200"]'
       - "DISABLE_SECURITY_DASHBOARDS_PLUGIN=true"
     networks:
       - opensearch-net
