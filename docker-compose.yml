@@ -4,18 +4,17 @@ services:
     build: os-docker/.
     container_name: os-tmdb-node
     environment:
-      - cluster.name=opensearch-cluster
-      - node.name=os-tmdb-node
-      - discovery.type=single-node
-      - "http.cors.enabled=true"
-      - "http.cors.allow-origin=*"
-      - "http.cors.allow-methods: OPTIONS,HEAD,GET,POST,PUT,DELETE"
-      - "http.cors.allow-headers=X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization"
-      - "http.cors.allow-credentials=true"
-      - bootstrap.memory_lock=true
-      - "OPENSEARCH_JAVA_OPTS=-Xms1g -Xmx4g"
-      - "DISABLE_INSTALL_DEMO_CONFIG=true"
-      - "DISABLE_SECURITY_PLUGIN=true"
+      cluster.name: opensearch-cluster
+      node.name: os-tmdb-node
+      discovery.type: single-node
+      http.cors.enabled: true
+      http.cors.allow-origin: "*"
+      http.cors.allow-methods: OPTIONS,HEAD,GET,POST,PUT,DELETE
+      http.cors.allow-headers: X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization,test,access-control-allow-headers,x-search-query,X-Search-Id,X-Search-Filters,X-ubi-query-id,X-ubi-store,X-ubi-user-id,X-ubi-session-id,x-search-client,Access-Control-Expose-Headers
+      http.cors.allow-credentials: true
+      OPENSEARCH_JAVA_OPTS: -Xms1g -Xmx4g
+      plugins.security.disabled: true
+      OPENSEARCH_INITIAL_ADMIN_PASSWORD: Mysupersecretpassword_123
     ulimits:
       memlock:
         soft: -1
