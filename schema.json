@@ -179,6 +179,16 @@
         "type": "text",
         "analyzer": "names_front",
         "similarity": "no_tf_similarity"
+      },
+      "movie_embedding": {
+        "type": "knn_vector",
+        "dimension": 384,
+        "method": {
+          "engine": "lucene",
+          "space_type": "l2",
+          "name": "hnsw",
+          "parameters": {}
+        }
       }
     }
   },
@@ -495,7 +505,8 @@
         }
       },
       "number_of_shards": 1,
-      "number_of_replicas": 0
+      "number_of_replicas": 0,
+      "knn": true
     }
   }
 }
